@@ -1,0 +1,171 @@
+var Overview_Data = {
+
+    "scenes": [
+      {
+        "id": "0-overview",
+        "name": "Overview",
+        "levels": [
+            { width: 1125, height: 750, tileWidth: 1125, tileHeight: 750 },
+//          { width: 4500, height: 3000, tileWidth: 4500, tileHeight: 3000 },
+//          { width: 9000, height: 6000, tileWidth: 4500, tileHeight: 3000 },
+//          { width: 18000, height: 12000, tileWidth: 4500, tileHeight: 3000 }
+        ],
+        "faceSize": 1680,
+        "initialViewParameters": {
+          "pitch": 0,
+          "yaw": 0,
+          "fov": 1.5707963267948966
+        },
+        "linkHotspots": [
+
+//          { "x": 0.500, "y": 0.500, "rotation": 0, "target": "0-p1","loc":"Hallway" },
+            { "x": 0.500 ,"y": 0.570, "rotation": 0, "target": "0-outdoor-playground","loc":"Office"},
+            { "x": 0.745 ,"y": 0.180, "rotation": 0, "target": "1-m201-worship-hall","loc":"Office"},
+            { "x": 0.692 ,"y": 0.360, "rotation": 0, "target": "2-main-lobby","loc":"Office"},
+            { "x": 0.590 ,"y": 0.325, "rotation": 0, "target": "3-m206a-prayer-room","loc":"Office"},
+            { "x": 0.633 ,"y": 0.325, "rotation": 0, "target": "4-m206b-prayer-room","loc":"Office"},
+            { "x": 0.590 ,"y": 0.400, "rotation": 0, "target": "5-m206c-olive-blessing","loc":"Office"},
+            { "x": 0.633 ,"y": 0.400, "rotation": 0, "target": "6-m206d-olive-blessing","loc":"Office"},
+            { "x": 0.699 ,"y": 0.271, "rotation": 0, "target": "7-m207-teacher","loc":"Office"},
+            { "x": 0.697 ,"y": 0.449, "rotation": 0, "target": "8-m210-korean","loc":"Office"},
+            { "x": 0.755 ,"y": 0.370, "rotation": 0, "target": "9-m213","loc":"Office"},
+            { "x": 0.784 ,"y": 0.370, "rotation": 0, "target": "10-m214","loc":"Office"},
+            { "x": 0.819 ,"y": 0.386, "rotation": 0, "target": "11-m215","loc":"Office"},
+            { "x": 0.548 ,"y": 0.325, "rotation": 0, "target": "12-m217","loc":"Office"},
+            { "x": 0.425 ,"y": 0.745, "rotation": 0, "target": "13-e206-joy-ministry","loc":"Office"},
+            { "x": 0.435 ,"y": 0.814, "rotation": 0, "target": "14-e207","loc":"Office"},
+            { "x": 0.470 ,"y": 0.814, "rotation": 0, "target": "15-e209","loc":"Office"},
+            { "x": 0.510 ,"y": 0.745, "rotation": 0, "target": "16-e210","loc":"Office"},
+            { "x": 0.510 ,"y": 0.814, "rotation": 0, "target": "17-e211","loc":"Office"},
+            { "x": 0.565 ,"y": 0.745, "rotation": 0, "target": "18-e212","loc":"Office"},
+            { "x": 0.565 ,"y": 0.814, "rotation": 0, "target": "19-e213","loc":"Office"},
+            { "x": 0.605 ,"y": 0.745, "rotation": 0, "target": "20-e214","loc":"Office"},
+            { "x": 0.605 ,"y": 0.814, "rotation": 0, "target": "21-e215","loc":"Office"},
+            { "x": 0.705 ,"y": 0.778, "rotation": 0, "target": "22-e218-worshhip-hall-k","loc":"Office"},
+            { "x": 0.755 ,"y": 0.778, "rotation": 0, "target": "23-e218-worshhip-hall-2-k","loc":"Office"},
+            { "x": 0.671 ,"y": 0.870, "rotation": 0, "target": "24-e219","loc":"Office"},
+            { "x": 0.720 ,"y": 0.870, "rotation": 0, "target": "25-e220","loc":"Office"},
+            { "x": 0.702 ,"y": 0.636, "rotation": 0, "target": "26-e225_1-life","loc":"Office"},
+            { "x": 0.702 ,"y": 0.675, "rotation": 0, "target": "27-e225_2-life","loc":"Office"},
+            { "x": 0.662 ,"y": 0.535, "rotation": 0, "target": "28-e227","loc":"Office"},
+            { "x": 0.724 ,"y": 0.524, "rotation": 0, "target": "29-e228","loc":"Office"},
+            { "x": 0.694 ,"y": 0.180, "rotation": 0, "target": "30-m201-worship-hall-w","loc":"Office"},
+            { "x": 0.798 ,"y": 0.180, "rotation": 0, "target": "31-m201-worship-hall-e","loc":"Office"},
+
+
+        ],
+
+        "linkHotspots2": [
+
+          { "x": 0.718 ,"y": 0.317, "rotation": 0, "target": "32-lobby_ne","loc":"Hallway"},
+          { "x": 0.667 ,"y": 0.317, "rotation": 0, "target": "33-lobby_nw","loc":"Hallway"},
+          { "x": 0.718 ,"y": 0.406, "rotation": 0, "target": "34-lobby_se","loc":"Hallway"},
+          { "x": 0.667 ,"y": 0.406, "rotation": 0, "target": "35-lobby_sw","loc":"Hallway"},
+
+          { "x": 0.828 ,"y": 0.322, "rotation": 0, "target": "36-hallway_east1","loc":"Hallway"},
+          { "x": 0.798 ,"y": 0.322, "rotation": 0, "target": "37-hallway_east2","loc":"Hallway"},
+          { "x": 0.765 ,"y": 0.322, "rotation": 0, "target": "38-hallway_east3","loc":"Hallway"},
+          { "x": 0.410 ,"y": 0.777, "rotation": 0, "target": "39-hallway_gym1","loc":"Hallway"},
+          { "x": 0.447 ,"y": 0.777, "rotation": 0, "target": "40-hallway_gym2","loc":"Hallway"},
+          { "x": 0.482 ,"y": 0.777, "rotation": 0, "target": "41-hallway_gym3","loc":"Hallway"},
+          { "x": 0.533 ,"y": 0.777, "rotation": 0, "target": "42-hallway_gym4","loc":"Hallway"},
+          { "x": 0.586 ,"y": 0.777, "rotation": 0, "target": "43-hallway_gym5","loc":"Hallway"},
+          { "x": 0.620 ,"y": 0.777, "rotation": 0, "target": "44-hallway_gym6","loc":"Hallway"},
+          { "x": 0.621 ,"y": 0.192, "rotation": 0, "target": "45-hallway_north1","loc":"Hallway"},
+          { "x": 0.668 ,"y": 0.198, "rotation": 0, "target": "46-hallway_north2","loc":"Hallway"},
+          { "x": 0.668 ,"y": 0.252, "rotation": 0, "target": "47-hallway_north3","loc":"Hallway"},
+          { "x": 0.652 ,"y": 0.824, "rotation": 0, "target": "48-hallway_south1","loc":"Hallway"},
+          { "x": 0.652 ,"y": 0.777, "rotation": 0, "target": "49-hallway_south2","loc":"Hallway"},
+          { "x": 0.652 ,"y": 0.728, "rotation": 0, "target": "50-hallway_south3","loc":"Hallway"},
+          { "x": 0.652 ,"y": 0.686, "rotation": 0, "target": "51-hallway_south4","loc":"Hallway"},
+          { "x": 0.652 ,"y": 0.586, "rotation": 0, "target": "52-hallway_south5","loc":"Hallway"},
+          { "x": 0.734 ,"y": 0.586, "rotation": 0, "target": "53-hallway_south5b","loc":"Hallway"},
+          { "x": 0.694 ,"y": 0.586, "rotation": 0, "target": "54-hallway_south6","loc":"Hallway"},
+          { "x": 0.694 ,"y": 0.550, "rotation": 0, "target": "55-hallway_south7","loc":"Hallway"},
+          { "x": 0.700 ,"y": 0.477, "rotation": 0, "target": "56-hallway_south8","loc":"Hallway"},
+          { "x": 0.669 ,"y": 0.471, "rotation": 0, "target": "57-hallway_south9","loc":"Hallway"},
+          { "x": 0.506 ,"y": 0.368, "rotation": 0, "target": "58-hallway_west1","loc":"Hallway"},
+          { "x": 0.530 ,"y": 0.360, "rotation": 0, "target": "59-hallway_west2","loc":"Hallway"},
+          { "x": 0.576 ,"y": 0.360, "rotation": 0, "target": "60-hallway_west3","loc":"Hallway"},
+          { "x": 0.646 ,"y": 0.360, "rotation": 0, "target": "61-hallway_west4","loc":"Hallway"},
+
+
+        ],
+
+        "infoHotspots": []
+      }
+    ],
+
+    "picyawangle":{
+
+      "0-outdoor-playground": 0.0,
+      "1-m201-worship-hall": 0.0,
+      "2-main-lobby": 0.0,
+      "3-m206a-prayer-room": 0.0,
+      "4-m206b-prayer-room": 0.0,
+      "5-m206c-olive-blessing": 0.0,
+      "6-m206d-olive-blessing": 0.0,
+      "7-m207-teacher": 0.0,
+      "8-m210-korean": 0.0,
+      "9-m213": 0.0,
+      "10-m214": 0.0,
+      "11-m215": 0.0,
+      "12-m217": 0.0,
+      "13-e206-joy-ministry": 0.0,
+      "14-e207": 0.0,
+      "15-e209": 0.0,
+      "16-e210": 0.0,
+      "17-e211": 0.0,
+      "18-e212": 0.0,
+      "19-e213": 0.0,
+      "20-e214": 0.0,
+      "21-e215": 0.0,
+      "22-e218-worshhip-hall-k": 0.0,
+      "23-e218-worshhip-hall-2-k": 0.0,
+      "24-e219": 0.0,
+      "25-e220": 0.0,
+      "26-e225_1-life": 0.0,
+      "27-e225_2-life": 0.0,
+      "28-e227": 0.0,
+      "29-e228": 0.0,
+      "30-m201-worship-hall-w": 0.0,
+      "31-m201-worship-hall-e": 0.0,
+      "32-lobby_ne": 0.0,
+      "33-lobby_nw": 0.0,
+      "34-lobby_se": 0.0,
+      "35-lobby_sw": 0.0,
+      "36-hallway_east1": 0.0,
+      "37-hallway_east2": 0.0,
+      "38-hallway_east3": 0.0,
+      "39-hallway_gym1": 0.0,
+      "40-hallway_gym2": 0.0,
+      "41-hallway_gym3": 0.0,
+      "42-hallway_gym4": 0.0,
+      "43-hallway_gym5": 0.0,
+      "44-hallway_gym6": 0.0,
+      "45-hallway_north1": 0.0,
+      "46-hallway_north2": 0.0,
+      "47-hallway_north3": 0.0,
+      "48-hallway_south1": 0.0,
+      "49-hallway_south2": 0.0,
+      "50-hallway_south3": 0.0,
+      "51-hallway_south4": 0.0,
+      "52-hallway_south5": 0.0,
+      "53-hallway_south5b": 0.0,
+      "54-hallway_south6": 0.0,
+      "55-hallway_south7": 0.0,
+      "56-hallway_south8": 0.0,
+      "57-hallway_south9": 0.0,
+      "58-hallway_west1": 0.0,
+      "59-hallway_west2": 0.0,
+      "60-hallway_west3": 0.0,
+      "61-hallway_west4": 0.0,
+     
+      
+    }  
+
+
+
+  };
+
+
